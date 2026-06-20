@@ -40,7 +40,7 @@ describe ('Testes classe de Pagamentos', () => {
         const pagamentos = servicoDePagamento.consultarUltimoPagamento();
 
         // Assert
-        assert.equal(pagamentos.categoria, 'Cara');
+        assert.equal(pagamentos.categoria, 'cara');
     })
      it ('Validar exibição correta da categoria Padrão', () => { 
         // Arrange
@@ -51,6 +51,6 @@ describe ('Testes classe de Pagamentos', () => {
         const pagamentos = servicoDePagamento.consultarUltimoPagamento();
 
         // Assert
-        assert.equal(pagamentos.categoria, 'Padrão');
+        assert.equal(pagamentos.categoria, 'padrão');
     })
 })

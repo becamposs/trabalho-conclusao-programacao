@@ -7,7 +7,7 @@ export default class ServicoDePagamento {
             codigoBarras: valor1,
             empresa: valor2,
             valor: valor3,
-            categoria: valor3 > 100 ? 'Cara' : 'Padrão'
+            categoria: valor3 > 100 ? 'cara' : 'padrão'
         })
     }
     consultarUltimoPagamento(){
