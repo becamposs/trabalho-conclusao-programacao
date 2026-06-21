@@ -1,7 +1,7 @@
 import ServicoDePagamento from "../src/trabalhoConclusao.js";
 import assert from 'node:assert';
 
-describe ('Testes classe de Pagamentos', () => {
+describe ('Testes Classes de Pagamentos', () => {
     it ('Validar que o pagamento é adicionado à lista de pagamentos', () => { 
         // Arrange
         const servicoDePagamento = new ServicoDePagamento();

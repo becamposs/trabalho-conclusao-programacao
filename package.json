@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:report": "mocha --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "type": "module",
   "dependencies": {
     "mocha": "^11.7.6"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4"
   }
 }
