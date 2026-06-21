@@ -9,7 +9,8 @@ on:
 
 #Execução Agendada
   schedule:
-    - cron: '12 0 * * *' 
+    - cron: '*/5 * * * *'
+    - cron: '12 0 * * *'
   
 #Execução por Push
   push:
